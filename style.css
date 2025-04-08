@@ -1,0 +1,19 @@
+:root {
+    --bg-color:#F3E5D8;
+    --txt-color:#B5B1AE;
+    --header-color:#844631;
+    --title-color:#2A2726;
+}
+
+@font-face {
+    font-family:"Outfit";
+    src:url("/assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family:'young-serif';
+    src:url("/assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+body {
+    background-color:var(--bg-color);
+}
