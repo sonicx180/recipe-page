@@ -3,6 +3,7 @@
     --txt-color:#B5B1AE;
     --header-color:#844631;
     --title-color:#2A2726;
+    --card-color:#FFF7FC;
 }
 
 @font-face {
@@ -16,4 +17,9 @@
 
 body {
     background-color:var(--bg-color);
+    font-family:"Outfit";
+}
+h1,
+h2 {
+    font-family:"young-serif" !important;
 }
