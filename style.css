@@ -23,3 +23,15 @@ h1,
 h2 {
     font-family:"young-serif" !important;
 }
+
+.container {
+    background-color:white;
+    margin: auto;
+    width:70%;
+    padding:50px;
+    border-radius:15px;
+}
+.recipe-img {
+    width:100%;
+    
+}
