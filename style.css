@@ -23,9 +23,14 @@ h1,
 h2 {
     font-family:"young-serif" !important;
 }
-
+h2, .info-fact {
+    color:var(--header-color);
+}
+li {
+    line-height:1.6em;
+}
 .container {
-    background-color:white;
+    background-color:var(--card-color);
     margin: auto;
     width:70%;
     padding:50px;
@@ -34,4 +39,23 @@ h2 {
 .recipe-img {
     width:100%;
     border-radius:10px;
+}
+.preparation-card {
+    background-color:var(--bg-color);
+    padding: 5px 10px;
+    border-radius:10px;
+}
+.attribution {
+    float:right;
+}
+
+@media screen and (max-width:500px) {
+    .container {
+        padding-top:0;
+    }
+    .recipe-img {
+        width:100%;
+        border-radius:0;
+        height:auto;
+    }
 }
