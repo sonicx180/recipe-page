@@ -1,61 +1,66 @@
 :root {
-    --bg-color:#F3E5D8;
-    --txt-color:#B5B1AE;
-    --header-color:#844631;
-    --title-color:#2A2726;
-    --card-color:#FFF7FC;
+	--bg-color: #f3e5d8;
+	--txt-color: #b5b1ae;
+	--header-color: #844631;
+	--title-color: #2a2726;
+	--card-color: #fff7fc;
 }
 
 @font-face {
-    font-family:"Outfit";
-    src:url("/assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+	font-family: 'Outfit';
+	src: url('/assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
 }
 @font-face {
-    font-family:'young-serif';
-    src:url("/assets/fonts/young-serif/YoungSerif-Regular.ttf");
+	font-family: 'young-serif';
+	src: url('/assets/fonts/young-serif/YoungSerif-Regular.ttf');
 }
 
 body {
-    background-color:var(--bg-color);
-    font-family:"Outfit";
+	background-color: var(--bg-color);
+	font-family: 'Outfit';
 }
 h1,
 h2 {
-    font-family:"young-serif" !important;
+	font-family: 'young-serif' !important;
 }
-h2, .info-fact {
-    color:var(--header-color);
+h2,
+.info-fact {
+	color: var(--header-color);
 }
 li {
-    line-height:1.6em;
+	line-height: 1.6em;
 }
 .container {
-    background-color:var(--card-color);
-    margin: auto;
-    width:70%;
-    padding:50px;
-    border-radius:15px;
-}
-.recipe-img {
-    width:100%;
-    border-radius:10px;
-}
-.preparation-card {
-    background-color:var(--bg-color);
-    padding: 5px 10px;
-    border-radius:10px;
-}
-.attribution {
-    float:right;
+	background-color: var(--card-color);
+	margin: auto;
+	width: 70%;
+	padding: 50px;
+	border-radius: 15px;
+	overflow-y: auto;
 }
 
-@media screen and (max-width:500px) {
-    .container {
-        padding-top:0;
-    }
-    .recipe-img {
-        width:100%;
-        border-radius:0;
-        height:auto;
-    }
+.recipe-img {
+	width: 100%;
+	border-radius: 10px;
+}
+.preparation-card {
+	background-color: var(--bg-color);
+	padding: 5px 10px;
+	border-radius: 10px;
+}
+.attribution {
+	float: right;
+}
+
+@media screen and (max-width: 500px) {
+	.container {
+		padding: 0;
+	}
+	.sub-container {
+		padding: 25px;
+	}
+	.recipe-img {
+		width: 100%;
+		border-radius: 0;
+	}
 }
